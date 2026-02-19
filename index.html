@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MFS Loan Assessment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Motsitseng Financial Services</h1>
+    <h2>Loan Assessment Expert System</h2>
+
+    <form id="loanForm">
+
+        <input type="number" id="age" placeholder="Age" required>
+
+        <select id="employment">
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+        </select>
+
+        <input type="number" id="income" placeholder="Monthly Income" required>
+        <input type="number" id="expenses" placeholder="Monthly Expenses" required>
+        <input type="number" id="credit" placeholder="Credit Score" required>
+        <input type="number" id="debts" placeholder="Existing Debts" required>
+        <input type="number" id="loan" placeholder="Loan Amount Requested" required>
+        <input type="number" id="period" placeholder="Repayment Period (Months)" required>
+
+        <button type="submit">Evaluate Loan</button>
+
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
